@@ -1,0 +1,7 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  This is your new Page: test
+  <p>SRM has updated page using Eclipse IDE plug-in.</p>
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

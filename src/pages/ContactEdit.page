@@ -1,0 +1,37 @@
+<apex:page standardController="Contact" >
+    <apex:form >
+        <apex:pagemessages ></apex:pagemessages>
+        <apex:pageblock title="{!if($CurrentPage.parameters.id == null, 'Create Contact', 'Edit Contact')}">
+            <apex:pageblockButtons location="bottom">
+                <apex:commandButton value="Save" action="{!save}"/>
+                <apex:commandButton value="Cancel" action="{!cancel}"/>
+            </apex:pageblockButtons>
+            <apex:pageblockSection title="details"  columns="2">
+                <apex:repeat value="{!$ObjectType.Contact.FieldSets.Details}" var="dtl">
+                    <apex:inputField value="{!Contact[dtl]}"/>
+                </apex:repeat>
+<!--            
+                <apex:inputfield value="{!contact.firstname}"/>
+                <apex:inputfield value="{!contact.lastname}"/>
+                <apex:inputfield value="{!contact.accountid}"/>
+                <apex:inputfield value="{!contact.Title}"/>
+                <apex:inputfield value="{!contact.leadsource}"/>
+                <apex:inputfield value="{!contact.Level__c}"/>
+                <apex:inputfield value="{!contact.OwnerId}"/>
+-->                
+            </apex:pageblockSection>
+            <apex:pageblockSection title="Contact Ino" >
+                <apex:repeat value="{!$ObjectType.Contact.FieldSets.Contact_Info}" var="coninf">
+                    <apex:inputField value="{!Contact[coninf]}"/>
+                </apex:repeat>
+<!--            
+                <apex:inputfield value="{!contact.Phone}"/>
+                <apex:inputfield value="{!contact.MobilePhone}"/>
+                <apex:inputfield value="{!contact.Fax}"/>
+                <apex:inputfield value="{!contact.Email}"/>
+-->                
+            </apex:pageblockSection>
+            
+        </apex:pageblock>
+    </apex:form>
+</apex:page>
