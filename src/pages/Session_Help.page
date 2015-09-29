@@ -1,0 +1,5 @@
+<apex:page >
+  <h1>Help for Sessions</h1>
+  <p>This is the custom help page for the custom Session object.</p>
+  <p>That's all for now...</p>
+</apex:page>
