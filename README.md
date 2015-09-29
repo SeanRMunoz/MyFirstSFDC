@@ -3,11 +3,13 @@ First experience developing on the Salesforce platform through creating custom *
 
 ## Technologies used:
 - Salesforce Developer Edition Account
-- Visualforce Pages
-- Apex: Classes, Triggers, Unit Tests, Custom Controllers & Controller Extensions
+- Visualforce [Pages](src/pages/)
+- Apex: [Classes](src/classes/), [Triggers](src/triggers), Custom [Controllers](src/classes/SidebarSummaryController.cls) & Controller [Extensions](src/classes/SpeakerControllerExtension.cls)
+- Unit Tests (see classes: [SidebarSummaryControllerTest](src/classes/SidebarSummaryControllerTest.cls) & [TestRejectDoubleBooking](src/classes/TestRejectDoubleBooking.cls))
 - Custom Objects & Fields
 - Field Sets & dynamic titles (see page: [ContactEdit](src/pages/ContactEdit.page))
 - Batch Processing (see class: [SendReminderEmail](src/classes/SendReminderEmail.cls))
+- Static Resources (see page: [SidebarSummary](src/pages/SidebarSummary.page))
 - SOQL and DML
 
 ## References:
