@@ -5,7 +5,8 @@ First experience developing on the Salesforce platform through creating custom *
 - Salesforce Developer Edition Account
 - Visualforce Pages
 - Apex: Classes, Triggers, Unit Tests, Custom Controllers & Controller Extensions
-- Custom Objects & Fields 
+- Custom Objects & Fields
+- Field Sets & dynamic titles (see page: [ContactEdit](src/pages/ContactEdit.page))
 - Batch Processing  
 - SOQL and DML
 
