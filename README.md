@@ -7,7 +7,7 @@ First experience developing on the Salesforce platform through creating custom *
 - Apex: Classes, Triggers, Unit Tests, Custom Controllers & Controller Extensions
 - Custom Objects & Fields
 - Field Sets & dynamic titles (see page: [ContactEdit](src/pages/ContactEdit.page))
-- Batch Processing  
+- Batch Processing (see class: [SendReminderEmail](src/classes/SendReminderEmail.cls))
 - SOQL and DML
 
 ## References:
