@@ -5,7 +5,7 @@ First experience developing on the Salesforce platform through creating custom *
 - Salesforce Developer Edition Account
 - Visualforce [Pages](src/pages/)
 - Apex: [Classes](src/classes/), [Triggers](src/triggers), Custom [Controllers](src/classes/SidebarSummaryController.cls) & Controller [Extensions](src/classes/SpeakerControllerExtension.cls)
-- Unit Tests (see classes: [SidebarSummaryControllerTest](src/classes/SidebarSummaryControllerTest.cls) & [TestRejectDoubleBooking](src/classes/TestRejectDoubleBooking.cls))
+- Unit Tests (see classes: [SidebarSummaryControllerTest](src/classes/SidebarSummaryControllerTest.cls) & [CampsiteDoubleBookingTest](src/classes/CampsiteDoubleBookingTest.cls))
 - Custom Objects & Fields
 - Field Sets & dynamic titles (see page: [ContactEdit](src/pages/ContactEdit.page))
 - Batch Processing (see class: [SendReminderEmail](src/classes/SendReminderEmail.cls))
