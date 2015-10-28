@@ -11,6 +11,8 @@ First experience developing on the Salesforce platform through creating custom *
 - Batch Processing (see class: [SendReminderEmail](src/classes/SendReminderEmail.cls))
 - Static Resources (see page: [SidebarSummary](src/pages/SidebarSummary.page))
 - SOQL and DML
+- Trigger using RESTful Web Service via callout (see: [AccountValidateShippingAddress](src/triggers/AccountValidateShippingAddress.trigger) and [WebServicesCallout](src/classes/WebServicesCallout.cls))
+- Unit test of Web Service callout using *HttpCalloutMock* (see: [AccountValidateShippingAddress_Test](src/classes/AccountValidateShippingAddress_Test.cls)) 
 
 ## References:
 
